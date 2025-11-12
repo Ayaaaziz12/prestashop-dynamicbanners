@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `ps_dynamic_banners` (
+  `id_banner` INT(11) NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255) NOT NULL,
+  `image` VARCHAR(255) NOT NULL,
+  `link` VARCHAR(255) DEFAULT NULL,
+  `positions` VARCHAR(50) NOT NULL,
+  `date_from` DATETIME DEFAULT NULL,
+  `date_to` DATETIME DEFAULT NULL,
+  `status` TINYINT(1) NOT NULL DEFAULT 1,
+  `priority` INT(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id_banner`)
+) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;

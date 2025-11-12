@@ -1,0 +1,50 @@
+/* Bannières Dynamiques */
+.dynamic-banners-home,
+.dynamic-banners-header,
+.dynamic-banners-footer,
+.dynamic-banners-cart {
+    margin: 10px 0;
+}
+
+.dynamic-banner-item,
+.dynamic-banner-header-item,
+.dynamic-banner-footer-item,
+.dynamic-banner-cart-item {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.dynamic-banner-item img,
+.dynamic-banner-header-item img,
+.dynamic-banner-footer-item img,
+.dynamic-banner-cart-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header spécifique */
+.dynamic-banners-header {
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+
+/* Footer spécifique */
+.dynamic-banners-footer {
+    background: #343a40;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.dynamic-banners-footer img {
+    max-height: 80px;
+}
+
+/* Panier spécifique */
+.dynamic-banners-cart {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
